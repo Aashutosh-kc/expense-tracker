@@ -5,12 +5,15 @@ import Total from './components/Total.jsx'
 import { useState } from 'react';
 function App(){
   const [expenses, setExpenses] = useState([])
-
+  function deleteExpense(delId)
+  {
+    setExpenses(expenses.filter(n => n.id ===! delId));
+  }
   return (
     <div>
     <Header />
     <AddExpense setExpenses={setExpenses} />
-    <ExpenseList expenses={expenses} />
+    <ExpenseList expenses={expenses} deleteExpense={deleteExpense}/>
     <Total expenses = {expenses} />
     </div>
   )

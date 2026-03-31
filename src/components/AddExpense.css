@@ -1,0 +1,44 @@
+.add-expense {
+  background: #1a1d27;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  border: 1px solid #2a2d3a;
+}
+
+.add-expense h2 {
+  margin-bottom: 16px;
+  font-size: 18px;
+  color: #a0a3b1;
+}
+
+.add-expense input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  background: #0f1117;
+  border: 1px solid #2a2d3a;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  outline: none;
+}
+
+.add-expense input:focus {
+  border-color: #7c6aff;
+}
+
+.add-expense button {
+  width: 100%;
+  padding: 10px;
+  background: #7c6aff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.add-expense button:hover {
+  background: #6a58e0;
+}

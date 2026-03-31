@@ -1,0 +1,20 @@
+.total {
+  background: #1a1d27;
+  border-radius: 12px;
+  padding: 24px;
+  border: 1px solid #2a2d3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total h3 {
+  font-size: 18px;
+  color: #a0a3b1;
+}
+
+.total span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #7c6aff;
+}

@@ -1,4 +1,5 @@
 import { useState} from 'react';
+import './AddExpense.css'
 function AddExpense({setExpenses}){
 	const[name , setName] = useState('');
 	const[amount , setAmount] = useState('');
@@ -16,7 +17,7 @@ function AddExpense({setExpenses}){
 	}
 
 	return(
-	<div>
+	<div className="add-expense">
 	<h2>Add Expense</h2>
 	<input type="text" 
 	placeholder="Expense name" 

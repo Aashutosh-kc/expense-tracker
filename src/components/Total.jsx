@@ -1,9 +1,10 @@
+import './Total.css'
 function Total({expenses})
 {
 	return(
-	<div>
+	<div className=" total">
 		<h2>Total: </h2>
-		<p>{expenses.reduce((total,expense)=> total + expense.amount,0)}</p>
+		<span>{expenses.reduce((total,expense)=> total + expense.amount,0)}</span>
 	</div>
 	)
 }

@@ -1,4 +1,4 @@
-# 💸 Expense Tracker
+# Expense Tracker
 
 A simple expense tracking app built with **React + Vite** as part of my frontend learning journey.
 

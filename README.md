@@ -2,6 +2,8 @@
 
 A simple expense tracking app built with **React + Vite** as part of my frontend learning journey.
 
+### Live Demo:
+https://expense-tracker-seven-kappa-49.vercel.app/
 ## Features
 
 - Add expenses with a name and amount
